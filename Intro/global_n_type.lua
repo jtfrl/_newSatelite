@@ -14,8 +14,10 @@ y=2
 w=3
 z=1
 
-print((x>y) and x or y)
-print((z>w) and w or z)
+print((x>y) and x or y) --[[
+nas duas primeiras operações, x prevalece; x aparece 1o. com o 'or']] 
+print((z>w) and w or z) --[[
+nas duas primeiras operações, 'false' prevalece; z aparece como 2o. pelo 'or']]
 
 -- RESULTADOS
 
