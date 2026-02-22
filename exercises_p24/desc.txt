@@ -1,0 +1,2 @@
+These files are answers to the exercises found on page 10 (24 in pdf) at this book: 
+Roberto Ierusalimschy, Programming in Lua. 4th edition. 

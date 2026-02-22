@@ -1,0 +1,20 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Lua Script",
+            "type": "lua",
+            "request": "launch",
+            "runtimeExecutable": "C:/Users/jeffe/Downloads/jtfrl/lua-5.5.0/src/lua.exe",
+            "program": "$(workspaceFolder)/main.lua", //checar essa parte
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "LUA_PATH":  ".;?.lua;${workspaceFolder}/?.lua",  
+                "LUA_CPATH": ".;?.dll;${workspaceFolder}/?.dll"  
+            }
+        }
+    ]
+}
